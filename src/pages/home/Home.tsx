@@ -1,5 +1,5 @@
 import { useState } from "react"
-import ChartAgama from "./ChartAgama"
+import ChartAgama from "./CustomChart"
 import { Chart } from "../../interface/dashboard"
 
 const Home:React.FC = () => {
