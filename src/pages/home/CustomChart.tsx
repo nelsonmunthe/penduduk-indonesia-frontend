@@ -9,7 +9,7 @@ import {
     ArcElement
 } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
-import useChartAgama from './useChartAgama';
+import useChartAgama from './useChart';
 import React from 'react';
 import { Chart } from "../../interface/dashboard"
 
