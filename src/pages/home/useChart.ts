@@ -2,9 +2,8 @@ import { useEffect, useState } from "react"
 import { DataChart } from "../../interface/dashboard"
 import { getChartByAgama, getChartByPekerjaan, getChartByPendidikan, getChartByPernikahan } from "../../apiCalls/dashboard"
 import { randomBackgroundColor } from "../../utils/utils"
-import { Chart } from "../../interface/dashboard"
 
-const useChartAgama = (type: string, description: string) => {
+const useChart = (type: string, description: string) => {
     const [dataChart, setDataChart] = useState<DataChart[]>([])
 
     const fetchChartByPurchaseType = async() => {
@@ -85,4 +84,4 @@ const useChartAgama = (type: string, description: string) => {
     }
 }
 
-export default useChartAgama
+export default useChart

@@ -13,7 +13,7 @@ import useChartAgama from './useChartAgama';
 import React from 'react';
 import { Chart } from "../../interface/dashboard"
 
-const ChartAgama:React.FC<Chart> = ({type, description}) => {
+const CustomChart:React.FC<Chart> = ({type, description}) => {
     
     const {
         data,
@@ -37,4 +37,4 @@ const ChartAgama:React.FC<Chart> = ({type, description}) => {
     )
 }
 
-export default ChartAgama
+export default CustomChart
